@@ -29,7 +29,7 @@
  (bootloader
   (bootloader-configuration
    (bootloader grub-bootloader)
-   (target "/dev/sda")
+   (targets '("/dev/sda"))
    (keyboard-layout keyboard-layout)))
  (swap-devices
   (list (uuid "8e856441-424a-4350-b876-343e7e14d3a4")))
